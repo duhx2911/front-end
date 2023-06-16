@@ -1,0 +1,126 @@
+<div class="nav-search">
+    <div class="container-fluid">
+        <form class="d-flex form-search" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" id="inputKeySearch" aria-label="Search">
+            <button class="btn btn-outline-success" onclick="searchProduct()" type="button">Search</button>
+        </form>
+    </div>
+</div>
+<div class="table-data">
+    <div class="d-flex justify-content-between">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+            onclick="openFormProduct()">
+            Thêm sản phẩm
+        </button>
+        <div class="sort-product d-flex">
+
+            <select class="form-select form-select-sm" id="sort-product-val" aria-label=".form-select-sm example"
+                style="width: 150px;margin-right: 15px;">
+                <option value="1">Mặc định</option>
+                <option value="2">Giá: tăng dần</option>
+                <option value="3">Giá: giảm dần</option>
+            </select>
+            <button type="button" class="btn btn-primary" onclick="sortProduct()">Sort</button>
+        </div>
+    </div>
+    <div class="my-table">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Current price</th>
+                    <th scope="col">Old price</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody class="list-product-data">
+
+
+            </tbody>
+        </table>
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination paginationProduct">
+            <!-- <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
+        </ul>
+    </nav>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 id="modalProductTitle">Thêm sản phẩm mới</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="closeModal()"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form class="model-product-form">
+                    <div class="form-group mb-3">
+                        <label for="inputId">Id</label>
+                        <input type="number" class="form-control" id="inputId" placeholder="Input Id">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Ex: Samsung Galaxy"
+                            required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputCurrentPrice">Current Price</label>
+                        <input type="text" class="form-control" autocomplete="off" id="inputCurrentPrice"
+                            placeholder="Ex: 30.999.000" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputOldPrice">Old Price</label>
+                        <input type="text" class="form-control" autocomplete="off" id="inputOldPrice"
+                            placeholder="Ex: 30.999.000" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="inputImage">Image</label>
+                        <input class="form-control" type="file" id="inputImage" required>
+
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="selectCate">Danh mục</label>
+                        <select class="form-select" id="selectCate" required>
+                            <!-- <option value="1">iPhone</option>
+                            <option value="2" selected>iPad</option>
+                            <option value="3">Mac</option>
+                            <option value="4">Watch</option>
+                            <option value="5">Âm thanh</option>
+                            <option value="6">Phụ kiện</option> -->
+                        </select>
+                    </div>
+
+                    <div class="form-product-btn">
+
+                    </div>
+
+
+                </form>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                    onclick="closeModal()">Hủy</button>
+
+            </div>
+
+        </div>
+    </div>
+</div>

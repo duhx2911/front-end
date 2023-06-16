@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/scss/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-xxl container-ipad">
+            <div class="top-nav">
+
+                <!-- <div class="row">
+
+                    <div class="col-lg-2 col-xl-2 col-xxl-2">
+
+                        <div class="top-brand">
+                            <a href="index.html">
+                                <img src="/img/logo_brand.png" class="logo-brand" alt="logo brand">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-xl-8 col-xxl-8">
+
+                        <div class="top-menu">
+                            <ul class="cate-menu">
+                                <li class="menu-item"><a class="menu-item-link" href="#">Iphone</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Ipad</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Mac</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Watch</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Âm thanh</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Phụ kiện</a></li>
+                                <li class="menu-item service-item">
+                                    <a class="menu-item-link" href="#">Dịch vụ</a>
+                                    <ul class="child-menu">
+                                        <li class="child-item"><a href="#">ShopDunk Care</a>
+                                        </li>
+                                        <li class="child-item"><a href="#">Sim</a></li>
+                                        <li class="child-item"><a href="#">Trả góp</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Tin tức</a></li>
+                                <li class="menu-item"><a class="menu-item-link" href="#">Khuyến mại</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-xl-2 col-xxl-2">
+
+                        <div class="top-link">
+                            <ul class="top-link-menu">
+                                <li class="link-menu-item">
+                                    <a href="#">
+
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+                                <li class="link-menu-item">
+                                    <a href="#">
+
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </li>
+                                <li class="link-menu-item user-item">
+                                    <a href="#">
+                                        <i class="fa-regular fa-user"></i>
+                                    </a>
+                                    <ul class="acc-option">
+                                        <li class="acc-item"><a href="#">Tạo tài khoản ngay</a>
+                                        </li>
+                                        <li class="acc-item"><a href="#">Đăng nhập</a></li>
+                                        <li class="acc-item"><a href="#">Trợ giúp</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section class="banner">
+            <!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img src="/img/banner/iphone_14_pro_max.png" class="d-block w-100"
+                                alt="Banner Iphone 14 Pro Max">
+                        </a>
+
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+
+                            <img src="/img/banner/mac_air.jpeg" class="d-block w-100" alt="Banner Macbook Air">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+
+                            <img src="/img/banner/ipad_gen9.png" class="d-block w-100" alt="Banner Ipad Gen 9">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+
+                            <img src="/img/banner/banner_mac.jpeg" class="d-block w-100" alt="Banner Macbook">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+
+                            <img src="/img/banner/banner_watch.png" class="d-block w-100" alt="Banner Watch">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+        </section>
+
+        <section class="main-content">
+            <div class="container">
+                <!-- Topic Block -->
+                <div class="topic-block">
+                    <!-- <div class="topic-content">
+                        <div class="row">
+
+                            <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <a href="#">
+                                    <img class="topic-item-img" src="/img/topic/sale-soc.png"
+                                        alt="Banner sale sound device">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <a href="#">
+                                    <img class="topic-item-img" src="/img/topic/apple-care.jpeg"
+                                        alt="Banner apple care">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <a href="#">
+                                    <img class="topic-item-img" src="/img/topic/deal-chat.jpeg" alt="Banner airpod">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div> -->
+                </div>
+
+                <!-- Product Block -->
+                <div class="product-section">
+
+                    <!-- <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">iPhone</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Iphone/iphone-14-pro-max-128gb.png"
+                                                        alt="iPhone 14 Pro Max 128GB img">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPhone 14 Pro Max 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">26.790.000₫</p>
+                                                    <del class="old-price">34.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Iphone/iphone-14-pro-128gb.png"
+                                                        alt="iPhone 14 Pro 128GB img">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPhone 14 Pro 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">24.990.000₫</p>
+                                                    <del class="old-price">30.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Iphone/iphone-14-128gb.png"
+                                                        alt="iPhone 14 128GB img">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPhone 14 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">18.990.000₫</p>
+                                                    <del class="old-price">24.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Iphone/iphone-14-plus-128gb.png"
+                                                        alt="iPhone 14 Plusx 128GB img">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPhone 14 Plus 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">21.590.000₫</p>
+                                                    <del class="old-price">27.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả iPhone
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">iPad</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/iPad/0006205_ipad-gen-9-102-inch-wifi-64gb_240.png"
+                                                        alt="iPad  gen 9 10.2 inch Wifi 64GB">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPad gen 9 10.2 inch Wifi 64GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">6.990.000₫</p>
+                                                    <del class="old-price">9.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/iPad/0007071_ipad-pro-m2-11-inch-wifi-128gb_240.png"
+                                                        alt="iPad Pro M2 11 inch Wifi 128GB">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPad Pro M2 11 inch Wifi 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">20.590.000₫</p>
+                                                    <del class="old-price">23.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/iPad/0007301_ipad-pro-m2-129-inch-wifi-128gb_240.png"
+                                                        alt="iPad Pro M2 12.9 inch Wifi 128GB">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPad Pro M2 12.9 inch Wifi 128GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">28.390.000₫</p>
+                                                    <del class="old-price">31.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/iPad/0009725_ipad-gen-10th-109-inch-wifi-64gb_240.png"
+                                                        alt="iPad Gen 10th 10.9 inch Wifi 64GB">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPad Gen 10th 10.9 inch Wifi 64GB
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">10.990.000₫</p>
+                                                    <del class="old-price">12.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả iPad
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">Mac</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Mac/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.png"
+                                                        alt="MacBook Air M1 2020 (8GB RAM | 256GB SSD)">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        MacBook Air M1 2020 (8GB RAM | 256GB SSD)
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">18.590.000₫</p>
+                                                    <del class="old-price">28.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Mac/0008502_macbook-air-m2-2022-8gb-ram-256gb-ssd_240.png"
+                                                        alt="MacBook Air M2 2022 (8GB RAM | 256GB SSD)">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        MacBook Air M2 2022 (8GB RAM | 256GB SSD)
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">27.490.000₫</p>
+                                                    <del class="old-price">32.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Mac/0008682_macbook-pro-13-inch-m2-10-core-8gb-ram-256gb-ssd_240.png"
+                                                        alt="MacBook Pro 13 inch M2 (10 core| 8GB RAM| 256GB SSD) ">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        MacBook Pro 13 inch M2 (10 core| 8GB RAM| 256GB SSD)
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">29.290.000₫</p>
+                                                    <del class="old-price">35.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Mac/0011267_macbook-pro-14-inch-m2-pro-16-core-16gb-512gb_240.jpeg"
+                                                        alt="MacBook Pro 14 inch M2 Pro (16 Core| 16GB| 512GB)">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        MacBook Pro 14 inch M2 Pro (16 Core| 16GB| 512GB)
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">47.750.000₫</p>
+                                                    <del class="old-price">55.000.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả Mac
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">Watch</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Watch/0001025_apple-watch-series-7-nhom-gps_240.png"
+                                                        alt="Apple Watch Series 7 Nhôm GPS">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Apple Watch Series 7 Nhôm GPS
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">7.890.000₫</p>
+                                                    <del class="old-price">11.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Watch/0000896_apple-watch-se-2022-nhom-gps_240.png"
+                                                        alt="Apple Watch SE Nhôm 2022 GPS">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Apple Watch SE Nhôm 2022 GPS
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">6.190.000₫</p>
+                                                    <del class="old-price">8.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Watch/0001031_apple-watch-series-8-41mm-nhom-gps_240.png"
+                                                        alt="Apple Watch Series 8 41mm nhôm GPS">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Apple Watch Series 8 41mm nhôm GPS
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">9.390.000₫</p>
+                                                    <del class="old-price">11.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/Watch/0008913_apple-watch-ultra-lte-49mm-alpine-loop-size-s_240.png"
+                                                        alt=" Apple Watch Ultra LTE 49mm Alpine Loop size S">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Apple Watch Ultra LTE 49mm Alpine Loop size S
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">19.990.000₫</p>
+                                                    <del class="old-price">23.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả Watch
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">Âm Thanh</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/sound/0012005_airpods-max_240.webp"
+                                                        alt="AirPods Max">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        AirPods Max
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">12.590.000₫</p>
+                                                    <del class="old-price">13.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/sound/0006052_airpods-2_240.jpeg" alt="AirPods 2">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        AirPods 2
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">2.590.000₫</p>
+                                                    <del class="old-price">4.390.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/sound/0006057_tai-nghe-apple-airpods-3-sac-co-day-lightning_240.jpeg"
+                                                        alt=" Tai nghe Apple AirPods 3 sạc có dây Lightning">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Tai nghe Apple AirPods 3 sạc có dây Lightning
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">4.350.000₫</p>
+                                                    <del class="old-price">5.490.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/sound/0000211_airpods-pro-2_240.png"
+                                                        alt="AirPods Pro 2">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        AirPods Pro 2
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">5.990.000₫</p>
+                                                    <del class="old-price">6.790.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả Âm Thanh
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-block">
+                        <div class="product-list">
+                            <h2 class="block-title">Phụ kiện</h2>
+                            <div class="product-list-item">
+                                <div class="row">
+
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/accessories/0001395_sac-20w-usb-c-power-adapter_240.png"
+                                                        alt="Sạc 20W USB-C Power Adapter ">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Sạc 20W USB-C Power Adapter
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">510.000₫</p>
+                                                    <del class="old-price">690.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/accessories/0001421_magic-mouse-2_240.jpeg"
+                                                        alt="Magic Mouse 2">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Magic Mouse 2
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">1.630.000₫</p>
+                                                    <del class="old-price">2.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/accessories/0001742_iphone-14-pro-max-leather-case-with-magsafe_240.jpeg"
+                                                        alt="iPhone 14 128GB img">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        iPhone 14 Pro Max Leather Case with MagSafe
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">1.590.000₫</p>
+                                                    <del class="old-price"></del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="card-item">
+                                            <div class="product-tag">
+                                                <img src="/img/khai-truong.png" alt="">
+                                            </div>
+                                            <div class="product-img">
+                                                <a href="#">
+                                                    <img src="/img/accessories/0010774_pencil-1-2022_240.png"
+                                                        alt="Pencil 1 (2022)">
+                                                </a>
+                                            </div>
+                                            <div class="product-detail">
+                                                <p class="product-name">
+                                                    <a href="#">
+                                                        Pencil 1 (2022)
+                                                    </a>
+                                                </p>
+                                                <div class="product-price">
+                                                    <p class="current-price">2.390.000₫</p>
+                                                    <del class="old-price">2.990.000₫</del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="show-all">
+                                <a href="#">
+                                    Xem tất cả Phụ kiện
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- Banner bottom  -->
+                <div class="banner-bottom">
+                    <!-- <a href="#">
+                        <img src="/img/banner_bottom/large_banner.jpeg" alt="Banner large">
+                    </a> -->
+                </div>
+
+                <!-- News -->
+                <div class="new">
+                    <!-- <h2 class="block-title">Tin Tức</h2>
+                    <div class="new-list">
+                        <div class="row">
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="/img/news/0015550_thumbnail_1600.jpeg" class="card-img-top"
+                                        alt="AirPods setting">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="#" class="card-text">
+
+                                                5 cài đặt AirPods 3 CỰC QUAN TRỌNG cần làm khi mới dùng
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <span class="card-date">09/05/2023</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="/img/news/0015535_thumbnail_1600.jpeg" class="card-img-top"
+                                        alt="So sánh Apple Watch 8 với Ultra và SE 2022: Có gì khác biệt?">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="#" class="card-text">
+
+                                                So sánh Apple Watch 8 với Ultra và SE 2022: Có gì khác biệt?
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <span class="card-date">09/05/2023</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="/img/news/0015429_thumbnail_1600.jpeg" class="card-img-top"
+                                        alt="Cách check AirPods 3 chính hãng, hàng giả đơn giản nhanh nhất">
+                                    <div class="card-body">
+                                        <p>
+                                            <a href="#" class="card-text">
+
+                                                Cách check AirPods 3 chính hãng, hàng giả đơn giản nhanh nhất
+                                            </a>
+                                        </p>
+                                    </div>
+                                    <span class="card-date">09/05/2023</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="show-all">
+                            <a href="#">
+                                Xem tất cả tin tức
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <!-- newletter block -->
+    <div class="newletter">
+        <!-- <div class="newletter-title">Đăng ký nhập tin từ ShopDunk</div>
+        <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+        <div class="newletter-subscribe">
+            <input type="email" id="newletter-email" class="newletter-subscribe-input" placeholder="Nhập email của bạn">
+            <button type="button" id="newletter-subscribe-button" class="btn btn-primary btn-subscribe">Đăng ký</button>
+        </div> -->
+    </div>
+    <footer class="footer">
+        <!-- <div class="container">
+            <div class="footer-top">
+                <div class="ft-top-block about-us">
+                    <div class="footer-logo">
+                        <img src="/img/logo_brand.png" alt="Logo brand">
+                    </div>
+                    <div class="ft-introduce">
+                        <p>
+                            Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng
+                            tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của
+                            Apple cho người dùng Việt Nam.
+                        </p>
+                    </div>
+                    <div class="ft-social">
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="/img/facebook-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="/img/tiktok-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="/img/zalo-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="#">
+                                    <img src="/img/youtube-icon.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ft-top-block information">
+                    <p class="title">Thông tin</p>
+                    <ul class="ft-list">
+                        <li>
+                            <a href="#">Tin Tức</a>
+                        </li>
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#">Check IMEI</a>
+                        </li>
+                        <li>
+                            <a href="#">Phương thức thanh toán</a>
+                        </li>
+                        <li>
+                            <a href="#">Thuê điểm bán lẻ</a>
+                        </li>
+                        <li>
+                            <a href="#">Bảo hành và sửa chữa</a>
+                        </li>
+                        <li>
+                            <a href="#">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Đánh giá chất lượng, khiếu nại</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ft-top-block customer-service">
+                    <p class="title">Chính sách</p>
+                    <ul class="ft-list">
+                        <li>
+                            <a href="#">Thu cũ đổi mới</a>
+                        </li>
+                        <li>
+                            <a href="#">Giao hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Giao hàng (ZaloPay)</a>
+                        </li>
+                        <li>
+                            <a href="#">Hủy giao dịch</a>
+                        </li>
+                        <li>
+                            <a href="#">Đổi trả</a>
+                        </li>
+                        <li>
+                            <a href="#">Bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="#">Giải quyết khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#">Bảo mật thông tin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ft-top-block my-contact">
+                    <p class="title">Địa chỉ & Liên hệ</p>
+                    <ul class="ft-list">
+                        <li>
+                            <a href="#">Tài khỏa của tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Đơn đặt hàng</a>
+                        </li>
+                        <li>
+                            <a href="#">Hệ thống cửa hàng </a>
+                        </li>
+                        <li>
+                            <a href="#">Tìm Store trên Google Map</a>
+                        </li>
+                        <li>
+                            <a href="tel:19006626">
+                                Mua hàng: <span style="color: #06c; font-size: 16px;">1900.6626</span>
+                                <ul>
+                                    <li>Nhánh 1: khu vực Hà Nội và các tỉnh phía bắc</li>
+                                    <li>Nhánh 2: khu vực Hồ Chí Minh và các tỉnh phía nam</li>
+                                    <li>Nhánh 3: Khiếu nại và góp ý</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:19006626">Doanh nghiệp: <span
+                                    style="color: #06c; font-size: 16px;">1900.6626</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="ft-disclaimer">
+                    &copy; 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày
+                    08/06/2016.
+                    <br>
+                    Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam
+                    <br>
+                    Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@shopdunk.com
+                </span>
+                <a href="#">
+                    <img src="/img/Bocongthuong.png" alt="Bộ công thương logo image">
+                </a>
+            </div>
+        </div> -->
+    </footer>
+    <button><i class="fa-regular fa-heart"></i></button>
+</body>
+<script src="home.js"></script>
+<script src="/js/main.js"></script>
+<script src="/home/js/signup.js"></script>
+
+</html>

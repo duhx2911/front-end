@@ -1,0 +1,233 @@
+body {
+  background-color: #f5f5f7;
+}
+// Banner
+.banner {
+  width: 100%;
+  margin-bottom: 50px;
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba($color: #867373, $alpha: 0.5);
+  }
+  .carousel-control-prev {
+    margin-left: 20px;
+  }
+  .carousel-control-next {
+    margin-right: 20px;
+  }
+  .carousel-indicators {
+    [data-bs-target="#carouselExampleAutoplaying"] {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-left: 5px;
+      background-color: #515154;
+    }
+  }
+}
+// topic-block
+.topic-block {
+  margin-bottom: 50px;
+  .topic-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .topic-item-img {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+// Product Block
+.product-block {
+  margin-bottom: 50px;
+}
+.card-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px 20px 0px 20px;
+  margin: 10px 0;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+.card-item:hover {
+  box-shadow: 1px 1px 28px 0 rgb(0 0 0 / 12%);
+}
+.product-tag {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  min-height: 50px;
+  top: 7px;
+  right: 8px;
+  z-index: 2;
+  img {
+    max-width: 100px;
+    max-height: 50px;
+  }
+}
+.product-img {
+  margin: 25px 0 20px;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
+.product-detail {
+  padding: 5px 0 15px;
+}
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  min-height: 54px;
+  a {
+    text-decoration: none;
+    color: $text-black;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    /* height: 50px; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
+.product-price {
+  margin: 0;
+  display: flex;
+  .current-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $price-color;
+  }
+  .old-price {
+    color: $text-color-primary;
+    margin: 0 5px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.show-all {
+  margin-top: 30px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    border: 1px solid #0066cc;
+    border-radius: 8px;
+    padding: 5.5px 45px;
+    color: #0066cc;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  a:hover {
+    background-color: #0066cc;
+    color: white;
+  }
+}
+
+// Banner bottom
+.banner-bottom {
+  margin-bottom: 50px;
+  img {
+    width: 100%;
+  }
+}
+
+// New Block
+.new {
+  margin-bottom: 50px;
+  .card {
+    border: none;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.04);
+    margin: 10px 0;
+  }
+  .card:hover {
+    box-shadow: 1px 1px 28px 0 rgb(0 0 0 / 12%);
+  }
+  .card-img-top {
+    height: 195px;
+    object-fit: cover;
+  }
+  .card-body {
+    padding: 0;
+    text-align: left;
+  }
+  .card-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: $text-black;
+    line-height: 28px;
+    padding: 25px 24px 15px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .card-date {
+    margin: 0 0 24px 0;
+    padding: 10px 24px 0;
+    color: #d0d5d5;
+  }
+}
+// newletter block
+.newletter {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+  .newletter-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $text-black;
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 8px 0;
+    margin: 0;
+  }
+  .newletter-subscribe {
+    width: 100%;
+    padding: 16px 20px 10px;
+  }
+  .newletter-subscribe-input {
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    font-size: 14px;
+    padding: 10px 0 10px 24px;
+    color: #515154;
+    width: 100%;
+    border: unset;
+    max-width: 470px;
+  }
+  .newletter-subscribe-input:focus,
+  .newletter-subscribe-input:focus-visible {
+    outline: unset;
+  }
+  .btn-subscribe {
+    min-width: 100px;
+    padding: 0 5px;
+    height: 40px;
+    border: unset;
+    border-radius: 40px;
+    background: #0066cc;
+    font-size: 12px;
+    margin-left: -52px;
+    text-transform: none;
+  }
+  .btn-subscribe:hover {
+    background-color: #248ece;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1199px) {
+}

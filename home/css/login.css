@@ -1,0 +1,35 @@
+.user-section {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  padding: 30px 0;
+}
+.login-block,
+.forgot-pass {
+  display: flex;
+  justify-content: space-between;
+}
+.login-wrapper {
+  width: 50%;
+}
+.login-wrapper img {
+  width: 100%;
+}
+.login-form {
+  width: 40%;
+  padding-right: 50px;
+}
+.form-check-input:focus {
+  box-shadow: none;
+}
+.none-account a,
+.forgot-pass a {
+  text-decoration: none;
+}
+.submit-button {
+  width: 100%;
+}
+.none-account {
+  margin-top: 10px;
+}

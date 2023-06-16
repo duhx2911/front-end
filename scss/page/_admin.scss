@@ -1,0 +1,80 @@
+.my-navbar {
+  background-color: $primary-color;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  a {
+    color: $text-color-primary;
+  }
+}
+.admin-content {
+  margin-top: 20px;
+  .sidebar-item {
+    margin-bottom: 20px;
+    width: 100%;
+    .sidebar-title {
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    border: 1px solid $text-color-primary;
+    border-radius: 5px;
+    box-sizing: border-box;
+    li {
+      text-align: center;
+      line-height: 30px;
+      padding: 5px 0;
+      border-bottom: 1px solid $text-color-primary;
+      box-sizing: border-box;
+      a {
+        text-decoration: none;
+        color: $text-black;
+      }
+    }
+    li:last-child {
+      border: none;
+    }
+  }
+  .sidebar-select {
+    background-color: white;
+    border: 1px solid $text-color-primary;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px 0;
+    .form-select {
+      margin: auto;
+      width: 80%;
+    }
+    .my-btn {
+      margin: 10px 0 0 22px;
+    }
+  }
+}
+
+// Nav search
+.nav-search {
+  padding: 10px 15px;
+  margin-top: 35px;
+  background-color: white;
+  border: 1px solid $text-color-primary;
+  border-radius: 5px;
+  .form-search {
+    width: 70%;
+  }
+}
+
+.table-data {
+  border: 1px solid $text-color-primary;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 30px;
+  padding: 10px 20px;
+  .my-table {
+    min-height: 300px;
+    font-size: 14px;
+  }
+}
